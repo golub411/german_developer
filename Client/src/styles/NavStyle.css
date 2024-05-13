@@ -1,0 +1,77 @@
+@font-face {
+    font-family: font;
+    src: url(../phonts/font.ttf);
+  }
+
+:root{
+    --blue-color: rgb(0, 71, 255);
+    --black-color: rgb(26, 26, 26);
+    --font: sans-serif
+}
+.more{
+    background-color: var(--blue-color);
+    color: white;
+    font-size: 24px;
+    font-family: font;
+    border-radius: 20px;
+    padding: 0px 35px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.more:hover{
+    color: var(--blue-color);
+    background-color: white;
+}
+
+.NavBar{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    z-index: 999;
+    top: 0px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.menu{
+    grid-gap: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 30px;
+}
+.menu > a{
+
+    padding: 10px 10px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family: font;
+    font-size: 32px;
+    transition: 0.3s;
+}
+
+a:hover{
+    color: var(--blue-color);
+}
+
+@media (max-width: 960px){
+    .menu{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        left: -160px;
+        top: 0;
+        background-color: white;
+        border: 2px solid var(--green-color);
+        border-radius: 10px;
+    }
+
+    .NavBar{
+        justify-content: space-between;
+        margin-top: -20px;
+    }
+
+}
+@media (max-width: 405px){
+    .registButton{
+        padding: 10px 10px;
+    }
+}

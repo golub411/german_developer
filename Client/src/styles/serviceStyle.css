@@ -1,0 +1,26 @@
+.service{
+    margin-top: 250px;
+    display: flex;
+    justify-content: space-between;
+}
+.txt{
+    font-family: font;
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+.nums{
+    display: flex;
+    grid-gap: 30px;
+}
+.title{
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+.description{
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+.image{
+    width: 50%;
+}
