@@ -5,10 +5,10 @@ const NavBar = () => {
         <div>
             <div className="NavBar">
                 <div className="menu">
-                    <a href="#products">УСЛУГИ</a>
-                    <a href="#about">РАБОТЫ</a> 
-                    <a href="#port">КОНТАКТЫ</a> 
-                    <a href="#cont" >СОТРУДНИЧЕСТВО</a>
+                    <a href="#service">УСЛУГИ</a>
+                    <a href="#works">РАБОТЫ</a> 
+                    <a href="#cont">КОНТАКТЫ</a> 
+                    <a href="#coop" >СОТРУДНИЧЕСТВО</a>
                     <a className='asd' style={{textDecoration: 'none', padding: '0px'}} href="https://t.me/golube123"><button className='more'>СВЯЗАТЬСЯ</button></a>
                 </div>
             </div>  

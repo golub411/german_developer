@@ -37,7 +37,7 @@ const Services = () => {
     }
 
     return(
-        <div className="service">
+        <div className="service" id="service">
             <div className="image">
                 <img style={{width: '100%', height: 'auto'}} src={service.img} alt="" />
             </div>

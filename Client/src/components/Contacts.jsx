@@ -5,7 +5,7 @@ import '../styles/Contacts.css'
 
 const Contacts = () => {
     return(
-        <div className='conts' style={{
+        <div id='cont' className='conts' style={{
             marginRight: 'auto',
             marginLeft: 'auto',
         }}>

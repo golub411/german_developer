@@ -2,7 +2,7 @@ import '../styles/Сooperation.css'
 
 const Сooperation = () => {
     return(
-        <div className="cooperation">
+        <div id='coop' className="cooperation">
             <div className="zag">
                 <h1 className='tp'>СОТРУДНИЧЕСТВО</h1>
                 <h1 className='btr'>АУТСОРСИНГ</h1>

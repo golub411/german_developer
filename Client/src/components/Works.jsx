@@ -2,7 +2,7 @@ import '../styles/WorksStyle.css'
 
 const Works = ({name, photos}) => {
     return(
-        <div className='works'>
+        <div className='works' id='works'>
             <h2 className='name'>{name}</h2>
             <div className="cards">
                 {photos.map((photo, index) => 
