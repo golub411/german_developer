@@ -5,10 +5,29 @@
     font-family: font;
 }
 .phot{
-    background-color: rgb(192, 192, 192);
+    margin-top: -40px;
     width: 45%;
     height: auto;
+    animation: 1s linear 0s normal none infinite running rot;
+    -webkit-animation: 10s linear 0s normal none infinite running rot;
 }
+
+@keyframes rot {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  @-webkit-keyframes rot {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
 .text{
     width: 45%;
 }
@@ -74,5 +93,8 @@
     }
     .text{
         width: 100%;
+    }
+    .name{
+        padding-left: 7px;
     }
 }
