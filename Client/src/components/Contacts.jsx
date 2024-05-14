@@ -18,7 +18,6 @@ const Contacts = () => {
             }} className="icons">
                 <a href="https://t.me/golube123"><img style={{with: '104px', height: '104px', cursor: 'pointer'}} src={tg} alt="" /></a>
                 <a href="https://api.whatsapp.com/send?phone=79163444608"><img style={{with: '104px', height: '104px', cursor: 'pointer'}} src={wa} alt="" /></a>
-                <img style={{with: '104px', height: '104px', cursor: 'pointer'}} src={inst} alt="" />
             </div>
         </div>
     )
