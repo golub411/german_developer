@@ -13,9 +13,10 @@
     color: white;
     font-size: 24px;
     font-family: font;
+    height: 100%;
     border-radius: 20px;
     padding: 0px 35px;
-    border: none;
+    border: 2px solid var(--blue-color);
     cursor: pointer;
     transition: 0.3s;
 }
@@ -33,13 +34,11 @@
     margin-left: auto;
 }
 .menu{
-    grid-gap: 50px;
     display: flex;
     justify-content: space-between;
-    padding-right: 30px;
 }
 .menu > a{
-
+    
     padding: 10px 10px;
     text-decoration: none;
     color: rgb(0, 0, 0);
@@ -51,27 +50,17 @@
 a:hover{
     color: var(--blue-color);
 }
-
-@media (max-width: 960px){
-    .menu{
-        position: absolute;
-        display: flex;
-        flex-direction: column;
-        left: -160px;
-        top: 0;
-        background-color: white;
-        border: 2px solid var(--green-color);
-        border-radius: 10px;
+@media(max-width: 1460px){
+    .more{
+        display: none;
     }
-
-    .NavBar{
-        justify-content: space-between;
-        margin-top: -20px;
+    .asd{
+        display: none;
     }
-
 }
-@media (max-width: 405px){
-    .registButton{
-        padding: 10px 10px;
+
+@media(max-width: 1009px){
+    .NavBar{
+        display: none;
     }
 }

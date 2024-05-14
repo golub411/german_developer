@@ -1,10 +1,14 @@
 body{
     margin-left: 15%;
     margin-right: 15%;
+    font-family: font;
 }
 
 h1{
     font-size: 128px;
+}
+h2{
+    font-size: 64px;
 }
 h3{
     font-size: 48px;
@@ -14,4 +18,119 @@ h4{
 }
 h5{
     font-size: 28px;
+}
+p{
+    font-size: 20px;
+}
+
+@media(max-width: 1669px){
+    body{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    h1{
+        font-size: 100px;
+    }
+    h2{
+        font-size: 48px;
+    }
+    h3{
+        font-size: 36px;
+    }
+    h4{
+        font-size: 28px;
+    }
+    h5{
+        font-size: 24px;
+    }
+    p{
+        font-size: 18px;
+    }
+}
+@media(max-width: 1284px){
+    body{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    h1{
+        font-size: 80px;
+    }
+    h2{
+        font-size: 36px;
+    }
+    h3{
+        font-size: 28px;
+    }
+    h4{
+        font-size: 24px;
+    }
+    h5{
+        font-size: 20px;
+    }
+    p{
+        font-size: 16px;
+    }
+}
+@media(max-width: 1147px){
+    h1{
+        font-size: 60px;
+    }
+    h2{
+        font-size: 28px;
+    }
+    h3{
+        font-size: 24px;
+    }
+    h4{
+        font-size: 20px;
+    }
+    h5{
+        font-size: 18px;
+    }
+    p{
+        font-size: 14px;
+    }
+
+}
+
+@media(max-width: 730px){
+    h1{
+        font-size: 40px;
+    }
+    h2{
+        font-size: 24x;
+    }
+    h3{
+        font-size: 20px;
+    }
+    h4{
+        font-size: 18px;
+    }
+    h5{
+        font-size: 14px;
+    }
+    p{
+        font-size: 14px;
+    }
+
+}
+@media(max-width: 550px){
+    h1{
+        font-size: 40px;
+    }
+    h2{
+        font-size: 36px;
+    }
+    h3{
+        font-size: 36px;
+    }
+    h4{
+        font-size: 28px;
+    }
+    h5{
+        font-size: 24px;
+    }
+    p{
+        font-size: 18px;
+    }
 }

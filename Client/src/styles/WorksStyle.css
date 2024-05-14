@@ -1,0 +1,46 @@
+.cards{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+.card{
+    position: relative;
+    width: 30%;
+    height: auto;
+    border-radius: 10px;
+    transform: rotate(-15deg);
+    transition: 0.4s;
+}   
+.card:hover{
+    transform: rotate(0deg);
+    transform: scale(1.6);
+    z-index: 5;
+    box-shadow: 0 0 30px rgba(0,0,0,0.5)
+}
+.works{
+    margin-top: 200px;
+}
+@media(max-width: 1460px){
+    .works{
+        margin-top: 100px;
+    }
+    .cards{
+        margin-top: 50px;
+    }
+}
+@media(max-width: 890px){
+    .works{
+        margin-top: 50px;
+    }
+
+}
+@media(max-width: 550px){
+    .cards{
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+    }
+    .card{
+        width: 70%;
+    }
+}

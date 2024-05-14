@@ -14,7 +14,7 @@ const Services = () => {
             switch (number) {
                 case '01':
                     setService({
-                        img: tilda, title: 'САЙТЫ НА TILDA', desc: 'Лендинг для привлечения клиентов с эффектным дизайном, который точно запомнится надолго', number: '01'
+                        img: tilda, title: 'САЙТ НА TILDA', desc: 'Лендинг для привлечения клиентов с эффектным дизайном, который точно запомнится надолго', number: '01'
                     })
                 break;
                 case '02':
@@ -45,65 +45,64 @@ const Services = () => {
                 <h3 className="title">{service.title}</h3>
                 <h5 className="description">{service.desc}</h5>
                 <div className="nums">
-                    <button
+                    <button className="num
+                    "
                     style={{
-                        width: '72px',
-                        height: '72px',
                         borderRadius: '10px',
                         border: '2px solid rgb(0, 71, 255)',
                         color: service.number === '01'? 'white': 'rgb(0, 71, 255)',
                         backgroundColor: service.number === '01'? 'rgb(0, 71, 255)': 'white',
                         cursor: 'pointer',
                         transition: '0.3s',
-                        fontSize: '30px'
+                        
                     }}
                     onClick={()=>changeService('01')}
                     >
                         1
                     </button>
-                    <button
+                    <button className="num
+                    "
                     style={{
-                        width: '72px',
-                        height: '72px',
+                        
                         borderRadius: '10px',
                         border: '2px solid rgb(0, 71, 255)',
                         color: service.number === '02'? 'white': 'rgb(0, 71, 255)',
                         backgroundColor: service.number === '02'? 'rgb(0, 71, 255)': 'white',
                         cursor: 'pointer',
                         transition: '0.3s',
-                        fontSize: '30px',
+                        
                     }}
                     onClick={()=>changeService('02')}
                     >
                         2
                     </button>
-                    <button
+                    <button className="num
+                    "
                     style={{
-                        width: '72px',
-                        height: '72px',
+                        
                         borderRadius: '10px',
                         border: '2px solid rgb(0, 71, 255)',
                         color: service.number === '03'? 'white': 'rgb(0, 71, 255)',
                         backgroundColor: service.number === '03'? 'rgb(0, 71, 255)': 'white',
                         cursor: 'pointer',
                         transition: '0.3s',
-                        fontSize: '30px',
+                        
                     }}
                     onClick={()=>changeService('03')}
                     >
                         3
                     </button>
-                    <button
+                    <button className="num
+                    "
                     style={{
-                        width: '72px',
-                        height: '72px',
+                       
                         borderRadius: '10px',
                         border: '2px solid rgb(0, 71, 255)',
                         color: service.number === '04'? 'white': 'rgb(0, 71, 255)',
                         backgroundColor: service.number ==='04'? 'rgb(0, 71, 255)':  'white',
                         cursor: 'pointer',
                         transition: '0.3s',
-                        fontSize: '30px',
+                        
                     }}
                     onClick={()=>changeService('04')}
                     >

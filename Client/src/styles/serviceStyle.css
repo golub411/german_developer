@@ -9,9 +9,14 @@
     flex-direction: column;
     width: 45%;
 }
+.num{
+    width: 72px;
+    height: 72px;
+    font-size: 30px;
+}
 .nums{
     display: flex;
-    grid-gap: 30px;
+    grid-gap: 5%;
 }
 .title{
     margin-top: 0px;
@@ -23,4 +28,54 @@
 }
 .image{
     width: 50%;
+}
+@media(max-width: 1557px){
+
+    .title{
+        margin-bottom: 15px;
+    }
+}
+@media(max-width: 1460px){
+    .service{
+        margin-top: 100px;
+    }
+    .num{
+        width: 50px;
+        height: 50px;
+        font-size: 24px
+    }
+}
+@media(max-width: 890px){
+    .service{
+        margin-top: 50px;
+    }
+    .description{
+        margin-bottom: 20px;
+    }
+    .num{
+        width: 40px;
+        height: 40px;
+        font-size: 20px
+    }
+}
+@media(max-width: 550px){
+    .service{
+        flex-direction: column;
+        justify-content: start;
+        text-align: center;
+    }
+    .nums{
+        justify-content: center;
+    }
+    .image{
+        width: 100%;
+    }
+    .txt{
+        width: 100%;
+    }
+    .num{
+        width: 72px;
+        height: 72px;
+        font-size:36px
+    }
 }

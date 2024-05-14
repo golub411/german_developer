@@ -1,0 +1,13 @@
+.conts{
+    margin-top: 200px;
+}
+@media(max-width: 1460px){
+    .conts{
+        margin-top: 100px;
+    }
+}
+@media(max-width: 890px){
+    .conts{
+        margin-top: 50px;
+    }
+}

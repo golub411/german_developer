@@ -9,7 +9,7 @@ const NavBar = () => {
                     <a href="#about">РАБОТЫ</a> 
                     <a href="#port">КОНТАКТЫ</a> 
                     <a href="#cont" >СОТРУДНИЧЕСТВО</a>
-                    <button className='more'>СВЯЗАТЬСЯ</button>
+                    <a className='asd' style={{textDecoration: 'none', padding: '0px'}} href="https://t.me/golube123"><button className='more'>СВЯЗАТЬСЯ</button></a>
                 </div>
             </div>  
         </div>
